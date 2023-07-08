@@ -1,3 +1,4 @@
+/* nav related style */
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -5,6 +6,7 @@ nav{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-titel{
     font-size: 45px;
@@ -34,4 +36,21 @@ nav li{
 }
 nav a{
     text-decoration: none;
+}
+/* header related style */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    background: #eec4a7;
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.profile-pic{
+    width: 500px;
+}
+.banner-content{
+
 }
