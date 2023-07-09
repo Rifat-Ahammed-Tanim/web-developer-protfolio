@@ -1,56 +1,93 @@
 /* nav related style */
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-nav{
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    margin: 0px 200px;
-}
-.nav-titel{
-    font-size: 45px;
-    font-weight: 800;
-
-}
-.text-primary{
-    color: #FD6E0A;
-}
-.btn-primary{
-    border-radius: 5px;
-    background-color: #FD6E0A;
-    color: white;
-    border: 0;
-    font-size: 20px;
+.section-titel{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
     font-weight: 700;
-    padding: 15px 35px;
+
 }
-nav > ul{
-    align-items: center;
-    display: flex;
+.section-description{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 0px 200px;
+  background-color: #fff8f3;
+}
+.nav-titel {
+  font-size: 45px;
+  font-weight: 800;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+nav > ul {
+  align-items: center;
+  display: flex;
 }
 
-nav li{
-    list-style: none;
-    margin: 50px;
+nav li {
+  list-style: none;
+  margin: 50px;
 }
-nav a{
-    text-decoration: none;
+nav a {
+  text-decoration: none;
 }
 /* header related style */
-.header{
-    background: #FFF8F3;
+.header {
+  background: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-    background: #eec4a7;
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  background: #fff8f3;
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-pic {
+  width: 500px;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-tital {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-geeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
+}
 
-}
-.profile-pic{
-    width: 500px;
-}
-.banner-content{
+/* main section styles */
 
+/* about section style */
+.about {
+  padding: 130;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
 }
